@@ -47,37 +47,10 @@ $("#add-user").on("click", function(event) {
   database.ref().push(newTrain);
   console.log(newTrain.train);
   console.log(newTrain.locale);
-    //let's test  
+    //let's test
+    $("#myModal").modal(show);  
     clearDiv();
   });
-  
-  // Replaces the content in the "recent-member" div
- // $("#train-display").html();
-  //$("#locale-display").html();
-  //$("#firstTrain-display").html();
-  //$("#arrival-display").html();
-
-  //Output all of the new information into the relevant sections
-  //$("#name-display").html(name);
-  //$("#email-display").html(email);
-  //$("#age-display").html(age);
-  //$("#comment-display").html(comment);
-
-  // Clear localStorage
-  //localStorage.clear();
-
-
-
-//$("input[type='submit']").on("click", function(event) {
-  //event.preventDefault();
-
-
-    //how to add to firebase??
-    //activity8 to do list
-//var list = JSON.parse(localStorage.getItem("todolist"));
-//if (!Array.isArray(list)) {
-  //    list = [];
-   // }//$("input")
     //function putOnPage() {
 
     //   $("#todo-list").empty(); // empties out the html
@@ -97,7 +70,7 @@ $("#add-user").on("click", function(event) {
     //     p.prepend(b);
     //     $("#todo-list").prepend(p);
     //   }
-    // }//closes putOnPage
+    // }
 
     // putOnPage();
 
